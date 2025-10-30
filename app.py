@@ -12,7 +12,7 @@ st.set_page_config(page_title="Alpaca Multi-Ticker Dashboard", layout="wide")
 
 API_KEY = st.secrets["API_KEY"]
 API_SECRET = st.secrets["API_SECRET"]
-BASE_URL = "https://paper-api.alpaca.markets"
+BASE_URL = "https://paper-api.alpaca.markets/v2"
 CSV_FILE = "orderbook_history.csv"
 
 # -------------------------------------------------
