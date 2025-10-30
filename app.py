@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 from datetime import datetime
 import os
-from io import StringIO
+
 
 # -------------------------------------------------
 # ==== CONFIG ====
@@ -148,4 +148,5 @@ if os.path.isfile(CSV_FILE):
 
 # Auto-refresh every 5 s
 time.sleep(5)
+
 st.rerun()
